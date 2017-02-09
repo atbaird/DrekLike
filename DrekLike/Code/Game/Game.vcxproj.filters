@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="General">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="General\Shaders">
+      <UniqueIdentifier>{e7086382-a401-430d-809b-ddedfeaa8828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Shaders\FragmentBuffers">
+      <UniqueIdentifier>{57d90233-dede-4bfa-a701-370aceda29a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Map">
+      <UniqueIdentifier>{bbf19f54-3e67-49ff-8f4b-8867ed028590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Generators">
+      <UniqueIdentifier>{4517272e-8d26-4d98-b9b7-ebaad6c77d32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Data">
+      <UniqueIdentifier>{515610c9-dbb5-4247-a205-52efc81a01f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Data\Environments">
+      <UniqueIdentifier>{f9fa2492-ed95-496d-9a01-8868cc9937b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\GameEntities">
+      <UniqueIdentifier>{a79724e6-24a6-4413-b21f-806c6d9ef26a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\GameEntities\AgentType">
+      <UniqueIdentifier>{adac5b00-176b-46d9-aa7b-b6f13bb7c490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\FieldOfView">
+      <UniqueIdentifier>{080ebbce-e73c-48ba-a3c6-41b68604b0e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\PathFinding">
+      <UniqueIdentifier>{48632e4e-35b7-4a62-aa90-8efdee668bed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Data\NPCs">
+      <UniqueIdentifier>{6cc73cc2-9283-4123-a089-2acd0be43352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Generators\MapGenerators">
+      <UniqueIdentifier>{f189ee71-2f95-4835-863e-1e4c83002fbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\GameEntities\AgentType\NPC">
+      <UniqueIdentifier>{3b0d06e7-feb2-4bd4-afb8-547cd81711f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Generators\NPCFactories">
+      <UniqueIdentifier>{0c5fced1-e45a-44dd-b883-f8fafd25c21b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\GameEntities\AgentType\NPC\Behaviors">
+      <UniqueIdentifier>{b747dac0-a00a-4502-94e0-dfa8eab191fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\GameEntities\AgentType\Faction">
+      <UniqueIdentifier>{3f4d8bda-b39f-484a-adce-0efc3fa969f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Data\Factions">
+      <UniqueIdentifier>{9eb696c9-3a4e-4ffd-81ec-531b2d609f48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Items">
+      <UniqueIdentifier>{5b05bf81-466d-498e-8a0c-aa632fab8d9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Data\Items">
+      <UniqueIdentifier>{4a01cb96-ff6d-47f1-b864-4880b72ebc7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Items\Use">
+      <UniqueIdentifier>{59a57749-84c6-4410-81d3-4e2a8914461a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Features">
+      <UniqueIdentifier>{f4417792-79c7-46e9-86ca-c8442f76f3c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Map\TileSpecific">
+      <UniqueIdentifier>{4ec03a33-805f-4ec0-abba-c1de5de84bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Generators\MapGenerators\MapGeneratorTypes">
+      <UniqueIdentifier>{27417e6c-4f5f-4a9d-a7f0-c93802f8083f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Generators\MapGenerators\MapGeneratorTypes\DungeonMap">
+      <UniqueIdentifier>{b3e8b35b-902d-42cd-b109-67171d744472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Generators\MapGenerators\MapGeneratorTypes\Cavern">
+      <UniqueIdentifier>{78886d90-bdcd-40f5-b37e-6b8727bb8004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Data\Features">
+      <UniqueIdentifier>{9f831d38-63e2-404e-8bd2-7b2f0f73e15f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main_Win32.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="TheGame.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="TheApp.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="TempGameStates.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="TempGameState.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonDefinitions.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommonFunctions.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity\GameEntity.cpp">
+      <Filter>General\GameEntities</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity\Agent.cpp">
+      <Filter>General\GameEntities</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity\AgentType\Player.cpp">
+      <Filter>General\GameEntities\AgentType</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldOfView\FieldOfView.cpp">
+      <Filter>General\FieldOfView</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldOfView\FieldOfViewRayCast.cpp">
+      <Filter>General\FieldOfView</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldOfView\FieldOfViewBasic.cpp">
+      <Filter>General\FieldOfView</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldOfView\FieldOfViewRadiusAround.cpp">
+      <Filter>General\FieldOfView</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\AStarAlgo.cpp">
+      <Filter>General\PathFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldOfView\FieldOfViewFloodFill.cpp">
+      <Filter>General\FieldOfView</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldOfView\FieldOfViewPermissive.cpp">
+      <Filter>General\FieldOfView</Filter>
+    </ClCompile>
+    <ClCompile Include="Generators\MapGenerators\MapGenerator.cpp">
+      <Filter>General\Generators\MapGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="Generators\MapGenerators\CavernMap\Cavern.cpp">
+      <Filter>General\Generators\MapGenerators\MapGeneratorTypes\Cavern</Filter>
+    </ClCompile>
+    <ClCompile Include="Generators\MapGenerators\CavernMap\PerlinWorm.cpp">
+      <Filter>General\Generators\MapGenerators\MapGeneratorTypes\Cavern</Filter>
+    </ClCompile>
+    <ClCompile Include="Generators\MapGenerators\DungeonMap\DungeonMapGen_Room.cpp">
+      <Filter>General\Generators\MapGenerators\MapGeneratorTypes\DungeonMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Generators\MapGenerators\DungeonMap\Tunnel.cpp">
+      <Filter>General\Generators\MapGenerators\MapGeneratorTypes\DungeonMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Generators\EnvironmentGenerationProcess.cpp">
+      <Filter>General\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="Generators\Generator.cpp">
+      <Filter>General\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\Map.cpp">
+      <Filter>General\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity\AgentType\NPC\NPC.cpp">
+      <Filter>General\GameEntities\AgentType\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity\AgentType\NPC\NPCTemplate.cpp">
+      <Filter>General\GameEntities\AgentType\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity\AgentType\NPC\Behavior.cpp">
+      <Filter>General\GameEntities\AgentType\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Generators\NPCFactories\NPCFactory.cpp">
+      <Filter>General\Generators\NPCFactories</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity\AgentType\Titles\AgentTitle.cpp">
+      <Filter>General\GameEntities\AgentType</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity\AgentType\NPC\Behaviors\Wander.cpp">
+      <Filter>General\GameEntities\AgentType\NPC\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity\AgentType\NPC\Behaviors\Chase.cpp">
+      <Filter>General\GameEntities\AgentType\NPC\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity\AgentType\NPC\Behaviors\Flee.cpp">
+      <Filter>General\GameEntities\AgentType\NPC\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity\AgentType\NPC\Behaviors\MeleeAttack.cpp">
+      <Filter>General\GameEntities\AgentType\NPC\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity\AgentType\Factions\Faction.cpp">
+      <Filter>General\GameEntities\AgentType\Faction</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity\CombatSystem.cpp">
+      <Filter>General\GameEntities</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity\AgentType\NPC\Behaviors\Patrol.cpp">
+      <Filter>General\GameEntities\AgentType\NPC\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Items\Item.cpp">
+      <Filter>General\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Items\ItemFactory.cpp">
+      <Filter>General\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Items\Use\Use.cpp">
+      <Filter>General\Items\Use</Filter>
+    </ClCompile>
+    <ClCompile Include="Items\Inventory.cpp">
+      <Filter>General\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Items\ItemTemplate.cpp">
+      <Filter>General\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Items\StatusEffect.cpp">
+      <Filter>General\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Feature.cpp">
+      <Filter>General\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\FeatureFactory.cpp">
+      <Filter>General\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\FeatureTemplate.cpp">
+      <Filter>General\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\Tile.cpp">
+      <Filter>General\Map\TileSpecific</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\TileData.cpp">
+      <Filter>General\Map\TileSpecific</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\TileDefinition.cpp">
+      <Filter>General\Map\TileSpecific</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\TileType.cpp">
+      <Filter>General\Map\TileSpecific</Filter>
+    </ClCompile>
+    <ClCompile Include="Generators\MapGenerators\CavernGenerator.cpp">
+      <Filter>General\Generators\MapGenerators\MapGeneratorTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Generators\MapGenerators\CellularAutomationGenerator.cpp">
+      <Filter>General\Generators\MapGenerators\MapGeneratorTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Generators\MapGenerators\DungeonMapGenerator.cpp">
+      <Filter>General\Generators\MapGenerators\MapGeneratorTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Generators\MapGenerators\FromDataGenerator.cpp">
+      <Filter>General\Generators\MapGenerators\MapGeneratorTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity\AgentType\NPC\Behaviors\PickUpItem.cpp">
+      <Filter>General\GameEntities\AgentType\NPC\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Generators\MapGenerators\CastleGenerator.cpp">
+      <Filter>General\Generators\MapGenerators\MapGeneratorTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity\AgentType\NPC\Behaviors\UseSiegeWeapon.cpp">
+      <Filter>General\GameEntities\AgentType\NPC\Behaviors</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TheGame.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="TheApp.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="TempGameStates.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="TempGameState.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonDefinitions.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommonFunctions.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity\GameEntity.hpp">
+      <Filter>General\GameEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity\Agent.hpp">
+      <Filter>General\GameEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity\AgentType\Player.hpp">
+      <Filter>General\GameEntities\AgentType</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldOfView\FieldOfView.hpp">
+      <Filter>General\FieldOfView</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldOfView\FieldOfViewRayCast.hpp">
+      <Filter>General\FieldOfView</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldOfView\FieldOfViewBasic.hpp">
+      <Filter>General\FieldOfView</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldOfView\FieldOfViewRadiusAround.hpp">
+      <Filter>General\FieldOfView</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding\AStarAlgo.hpp">
+      <Filter>General\PathFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldOfView\FieldOfViewFloodFill.hpp">
+      <Filter>General\FieldOfView</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldOfView\FieldOfViewPermissive.hpp">
+      <Filter>General\FieldOfView</Filter>
+    </ClInclude>
+    <ClInclude Include="Generators\MapGenerators\MapGenerator.hpp">
+      <Filter>General\Generators\MapGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="Generators\MapGenerators\CavernMap\Cavern.hpp">
+      <Filter>General\Generators\MapGenerators\MapGeneratorTypes\Cavern</Filter>
+    </ClInclude>
+    <ClInclude Include="Generators\MapGenerators\CavernMap\PerlinWorm.hpp">
+      <Filter>General\Generators\MapGenerators\MapGeneratorTypes\Cavern</Filter>
+    </ClInclude>
+    <ClInclude Include="Generators\MapGenerators\DungeonMap\DungeonMapGen_Room.hpp">
+      <Filter>General\Generators\MapGenerators\MapGeneratorTypes\DungeonMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Generators\MapGenerators\DungeonMap\Tunnel.hpp">
+      <Filter>General\Generators\MapGenerators\MapGeneratorTypes\DungeonMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Generators\EnvironmentGenerationProcess.hpp">
+      <Filter>General\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="Generators\Generator.hpp">
+      <Filter>General\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\Map.hpp">
+      <Filter>General\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity\AgentType\NPC\NPC.hpp">
+      <Filter>General\GameEntities\AgentType\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity\AgentType\NPC\NPCTemplate.hpp">
+      <Filter>General\GameEntities\AgentType\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity\AgentType\NPC\Behavior.hpp">
+      <Filter>General\GameEntities\AgentType\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Generators\NPCFactories\NPCFactory.hpp">
+      <Filter>General\Generators\NPCFactories</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity\AgentType\Titles\AgentTitle.hpp">
+      <Filter>General\GameEntities\AgentType</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity\AgentType\NPC\Behaviors\Wander.hpp">
+      <Filter>General\GameEntities\AgentType\NPC\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity\AgentType\NPC\Behaviors\Chase.hpp">
+      <Filter>General\GameEntities\AgentType\NPC\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity\AgentType\NPC\Behaviors\Flee.hpp">
+      <Filter>General\GameEntities\AgentType\NPC\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity\AgentType\NPC\Behaviors\MeleeAttack.hpp">
+      <Filter>General\GameEntities\AgentType\NPC\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity\AgentType\Factions\Faction.hpp">
+      <Filter>General\GameEntities\AgentType\Faction</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity\CombatSystem.hpp">
+      <Filter>General\GameEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity\AgentType\NPC\Behaviors\Patrol.hpp">
+      <Filter>General\GameEntities\AgentType\NPC\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Items\Item.hpp">
+      <Filter>General\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Items\ItemFactory.hpp">
+      <Filter>General\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Items\Use\Use.hpp">
+      <Filter>General\Items\Use</Filter>
+    </ClInclude>
+    <ClInclude Include="Items\Inventory.hpp">
+      <Filter>General\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Items\ItemTemplate.hpp">
+      <Filter>General\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Items\StatusEffect.hpp">
+      <Filter>General\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Feature.hpp">
+      <Filter>General\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\FeatureFactory.hpp">
+      <Filter>General\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\FeatureTemplate.hpp">
+      <Filter>General\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\Tile.hpp">
+      <Filter>General\Map\TileSpecific</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\TileData.hpp">
+      <Filter>General\Map\TileSpecific</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\TileDefinition.hpp">
+      <Filter>General\Map\TileSpecific</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\TileType.hpp">
+      <Filter>General\Map\TileSpecific</Filter>
+    </ClInclude>
+    <ClInclude Include="Generators\MapGenerators\CavernGenerator.hpp">
+      <Filter>General\Generators\MapGenerators\MapGeneratorTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Generators\MapGenerators\CellularAutomationGenerator.hpp">
+      <Filter>General\Generators\MapGenerators\MapGeneratorTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Generators\MapGenerators\DungeonMapGenerator.hpp">
+      <Filter>General\Generators\MapGenerators\MapGeneratorTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Generators\MapGenerators\FromDataGenerator.hpp">
+      <Filter>General\Generators\MapGenerators\MapGeneratorTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity\AgentType\NPC\Behaviors\PickUpItem.hpp">
+      <Filter>General\GameEntities\AgentType\NPC\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Generators\MapGenerators\CastleGenerator.hpp">
+      <Filter>General\Generators\MapGenerators\MapGeneratorTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity\AgentType\NPC\Behaviors\UseSiegeWeapon.hpp">
+      <Filter>General\GameEntities\AgentType\NPC\Behaviors</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Run_Win32\Data\Shaders\Framebuffers\ScreenPassthrough.vert">
+      <Filter>General\Shaders\FragmentBuffers</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\Framebuffers\ScreenPassthrough.frag">
+      <Filter>General\Shaders\FragmentBuffers</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\Run_Win32\Data\Environments\Caves.Environment.xml">
+      <Filter>General\Data\Environments</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Environments\Cavern.Environment.xml">
+      <Filter>General\Data\Environments</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Environments\Dungeon.Environment.xml">
+      <Filter>General\Data\Environments</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Environments\Mixed.Environment.xml">
+      <Filter>General\Data\Environments</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Environments\Plains.Environment.xml">
+      <Filter>General\Data\Environments</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Environments\Data.Environment.xml">
+      <Filter>General\Data\Environments</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Environments\TestRoom.Environment.xml">
+      <Filter>General\Data\Environments</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\NPCs\GoblinGrunt.NPC.xml">
+      <Filter>General\Data\NPCs</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Factions\Goblin.Faction.xml">
+      <Filter>General\Data\Factions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\NPCs\CavePeople.NPC.xml">
+      <Filter>General\Data\NPCs</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\NPCs\Possessed.NPC.xml">
+      <Filter>General\Data\NPCs</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Factions\Ghost.Faction.xml">
+      <Filter>General\Data\Factions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Factions\CavePeople.Faction.xml">
+      <Filter>General\Data\Factions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\NPCs\Feline.NPC.xml">
+      <Filter>General\Data\NPCs</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\NPCs\Constructs.NPC.xml">
+      <Filter>General\Data\NPCs</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Factions\Feline.Faction.xml">
+      <Filter>General\Data\Factions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Factions\Construct.Faction.xml">
+      <Filter>General\Data\Factions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Items\Potions.Items.xml">
+      <Filter>General\Data\Items</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Items\Weapons.Items.xml">
+      <Filter>General\Data\Items</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Items\Armor.Items.xml">
+      <Filter>General\Data\Items</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Features\Doors.Features.xml">
+      <Filter>General\Data\Features</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Environments\Castle.Environment.xml">
+      <Filter>General\Data\Environments</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Features\Siege.Features.xml">
+      <Filter>General\Data\Features</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Factions\Dwarf.Faction.xml">
+      <Filter>General\Data\Factions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Factions\DarkElf.Faction.xml">
+      <Filter>General\Data\Factions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Factions\Eel.Faction.xml">
+      <Filter>General\Data\Factions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\NPCs\Dwarf.NPC.xml">
+      <Filter>General\Data\NPCs</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\NPCs\DarkElf.NPC.xml">
+      <Filter>General\Data\NPCs</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\NPCs\Eel.NPC.xml">
+      <Filter>General\Data\NPCs</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

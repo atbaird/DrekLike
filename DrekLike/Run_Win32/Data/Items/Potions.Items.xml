@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<ItemBlueprints>
+  <ItemBlueprint name='Potion of Slow Healing' glyph='p' color='1.0,0.0,0.0' itemType='potion' equipSlot='none' damageOverTime='-2' statusTurns='10'>
+    
+  </ItemBlueprint>
+  <ItemBlueprint name='Potion of Instant Health' glyph='l' color='0.7,0.0,0.5' itemType='potion' equipSlot='none' damage='-5'>
+    
+  </ItemBlueprint>
+</ItemBlueprints>

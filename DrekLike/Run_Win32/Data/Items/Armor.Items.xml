@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<ItemBlueprints>
+  <!-- In the case of armor, damage will instead be used to remove from the damage hurled at the target-->
+  <!-- for rings, might should implement a special properities feature at some point. -->
+  <ItemBlueprint name='Bronze Helm' glyph='h' color='0.803,0.498,0.196' itemType='armor' equipSlot='head' damage='1'>
+  </ItemBlueprint>
+  
+  <ItemBlueprint name='Bronze chestplate' glyph='c' color='0.803,0.498,0.196' itemType='armor' equipSlot='chest' damage='3'>
+  </ItemBlueprint>
+  
+  <ItemBlueprint name='Bronze Leggings' glyph='h' color='0.803,0.498,0.196' itemType='armor' equipSlot='legs' damage='2'>
+  </ItemBlueprint>
+
+  <ItemBlueprint name='Primary Hand Ring' glyph='t' color='0.803,0.498,0.196' itemType='armor' equipSlot='primaryRing' damage='1'>
+  </ItemBlueprint>
+
+  <ItemBlueprint name='Secondary Hand Ring' glyph='r' color='0.803,0.498,0.196' itemType='armor' equipSlot='secondaryRing' damage='1'>
+  </ItemBlueprint>
+
+  <ItemBlueprint name='Ring of Levitation' glyph='=' color='0.5f,0.5f,0.5f' itemType='armor' equipSlot='primaryRing' damage='0' 
+                 customEquipMessage=' floats into the air.' grantFlight='true'>
+  </ItemBlueprint>
+</ItemBlueprints>

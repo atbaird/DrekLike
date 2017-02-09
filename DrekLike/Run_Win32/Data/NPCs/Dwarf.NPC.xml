@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<NPCBlueprints>
+  <NPCBlueprint name='Dwarf Soldier' faction='dwarf' preferredTile='air' defaultName='Dwark' lineOfSight='10.f' maxHealth='12~15'
+                damage='6~8' moveSpeed='1' race='dwarf' glyph='c' color='140,80,0' accuracy='0.75'>
+    <Names>
+      <Dwark/>
+      <Crossbeard/>
+      <Ooleg/>
+      <Skireg/>
+      <Doppy/>
+    </Names>
+
+    <Titles>
+      <Title name='the Dwarven Soldier'>
+      </Title>
+    </Titles>
+
+    <Inventory>
+      <Item name='Wooden Club'/>
+    </Inventory>
+    <Behaviors>
+      <Wander chanceToRest='0.5' chanceToWalk='0.5'>
+      </Wander>
+      <PickUpItem interestInItems='50.f' minInterestInItems='30.f' distanceOutToCare='9.f'/>
+
+      <Chase maximumDuration='40' maximumDistanceAwayToStart='15'>
+      </Chase>
+      <Chase maximumDuration='40' maximumDistanceAwayToStart='15' chaseTargetName='Player'/>
+
+      <MeleeAttack>
+      </MeleeAttack>
+
+    </Behaviors>
+
+    <MovementProperties>
+      <blockedByWalls/>
+      <BlockedByFire/>
+    </MovementProperties>
+  </NPCBlueprint>
+</NPCBlueprints>

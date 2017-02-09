@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<EnvironmentBlueprint name="" size="64,32">
+  <GenerationProcessData generator="CellularAutomationGenerator" steps="1" stonePercentage="0.1f" />
+
+
+</EnvironmentBlueprint>

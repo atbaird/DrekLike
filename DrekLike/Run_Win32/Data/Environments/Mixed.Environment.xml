@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<EnvironmentBlueprint name="" size="64,32">
+  <GenerationProcessData generator="DungeonMapGenerator" steps="0" quantity="4" surface="air" rangeMins="1,1" rangeMaxs="10,20"/>
+  <GenerationProcessData generator="CavernGenerator" steps="0" quantity="4" rangeMins="40,0" rangeMaxs="64,32"/>
+
+</EnvironmentBlueprint>

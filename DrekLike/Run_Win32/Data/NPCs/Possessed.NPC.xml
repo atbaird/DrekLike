@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<NPCBlueprints>
+
+  <!-- Commenting out All other blueprints for Final
+  <NPCBlueprint name='PossessedArmor' faction='ghost' preferredTile='air' lineOfSight='5.f' defaultName='Boo' maxHealth='30~50' damage='3~4' moveSpeed='1~3' race='ghost' glyph='O' color='100,100,100'>
+
+    <Names>
+      <Boo/>
+      <ClitterClatter/>
+      <Spoopy/>
+    </Names>
+
+    <Titles>
+      <Title name='the Possessed Suit of Armor'>
+      </Title>
+    </Titles>
+
+    <Inventory>
+      <Item name='Bronze Mace'/>
+      <Item name='Bronze Sword'/>
+      <Item name='Bronze chestplate'/>
+      <Item name='Bronze Leggings'/>
+      <Item name='Bronze Helm'/>
+    </Inventory>
+    <Behaviors>
+
+      <Wander chanceToRest='0.5' chanceToWalk='0.3'>
+      </Wander>
+      <PickUpItem interestInItems='50.f' minInterestInItems='30.f' distanceOutToCare='9.f'/>
+
+      <Chase maximumDuration='30' maximumDistanceAwayToStart='15'>
+
+      </Chase>
+
+      <Flee healthPercentLessThan='0.1' priority='1'>
+      </Flee>
+
+      <MeleeAttack/>
+      
+      <Patrol radius='15.f' numberOfPatrolPoints='3~5'>
+        
+      </Patrol>
+    </Behaviors>
+  </NPCBlueprint>
+
+  <NPCBlueprint name='Specter' faction='ghost' preferredTile='air, water' lineOfSight='5.f' defaultName='Spoopy' maxHealth='30~50' damage='3~4' moveSpeed='1~3' race='ghost' glyph='B' color='200,200,200'>
+    <Names>
+      <Spoopy/>
+      <Spook/>
+      <Spaghet/>
+    </Names>
+    <Titles>
+      <Title name='the Specter'>
+      </Title>
+    </Titles>
+
+    <MovementProperties>
+      <BlockedByWalls/>
+      <Flying/>
+    </MovementProperties>
+
+    <Behaviors>
+
+      <MeleeAttack/>
+      <Chase maximumDuration='30' maximumDistanceAwayToStart='15'>
+
+      </Chase>
+      <Wander chanceToRest='0.5' chanceToWalk='0.3'>
+      </Wander>
+      <PickUpItem interestInItems='50.f' minInterestInItems='30.f' distanceOutToCare='9.f'/>
+    </Behaviors>
+
+  </NPCBlueprint>
+  -->
+</NPCBlueprints>

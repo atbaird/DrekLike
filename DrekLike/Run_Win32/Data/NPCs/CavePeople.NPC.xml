@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<NPCBlueprints>
+<!-- Commenting out All other blueprints for Final
+  <NPCBlueprint name='CaveMan' faction='cave people' preferredTile='air' defaultName='Ug' lineOfSight='10.f' maxHealth='40~50' damage='3~7' moveSpeed='1~3' race='cave person' glyph='C' color='100,255,100'>
+    
+    
+    <Names>
+      <Grug/>
+      <Ug/>
+      <Oog/>
+    </Names>
+
+    <Titles>
+      <Title name='the CaveMan'>
+      </Title>
+    </Titles>
+
+    <Inventory>
+      <Item name='Wooden Club'/>
+    </Inventory>
+    <Behaviors>
+      <Wander chanceToRest='0.4' chanceToWalk='0.4'>
+      </Wander>
+      <PickUpItem interestInItems='50.f' minInterestInItems='30.f' distanceOutToCare='9.f'/>
+
+      <Chase maximumDuration='40' maximumDistanceAwayToStart='15'>
+
+      </Chase>
+
+      <MeleeAttack>
+        
+      </MeleeAttack>
+
+      <Flee healthPercentLessThan='0.1' priority='1'>
+      </Flee>
+    </Behaviors>
+  </NPCBlueprint>
+  -->
+</NPCBlueprints>

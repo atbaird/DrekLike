@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<FeatureBlueprints>
+  <FeatureBlueprint featureType='door' name='Wooden Door' charWhenActive='+' charWhenInactive='-'
+                    blocksLineOfSightWhenInactive='f' blocksLineOfSightWhenActive='true' solidWhenActive='t' solidWhenInactive='false'
+                    colorWhenActive='1.f,1.f,1.f' colorWhenInactive='1.f,1.f,1.f' active='True'
+                    messageToDisplayWhenSetActive=' opened the Wooden Door' messageToDisplayWhenSetInactive=' closed the Wooden Door'>
+    <!-- When Active, the door is considered closed, when inactive, the door is considered open. -->
+    
+  </FeatureBlueprint>
+  <FeatureBlueprint featureType='door' name='Open Wooden Door' charWhenActive='+' charWhenInactive='-'
+                    blocksLineOfSightWhenInactive='f' blocksLineOfSightWhenActive='true' solidWhenActive='t' solidWhenInactive='false'
+                    colorWhenActive='1.f,1.f,1.f' colorWhenInactive='1.f,1.f,1.f' active='false'
+                    messageToDisplayWhenSetActive=' opened the Wooden Door' messageToDisplayWhenSetInactive=' closed the Wooden Door'>
+    <!-- When Active, the door is considered closed, when inactive, the door is considered open. -->
+
+  </FeatureBlueprint>
+</FeatureBlueprints>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<EnvironmentBlueprint name="" size="64,32">
+  <GenerationProcessData generator="DungeonMapGenerator" steps="0" surface="air" quantity="10"/>
+  <GenerationProcessData generator="FromDataGenerator" steps="0" quantity="4">
+    <Tiles rangeMins="10,10" rangeMaxs="20,20" tileType="water"/>
+    <Tiles rangeMins="20,10" rangeMaxs="30,20" tileType="lava"/>
+  </GenerationProcessData>
+  <GenerationProcessData generator="DungeonMapGenerator" steps="0" surface="air" quantity="10" makeDoors="t"/>
+
+
+</EnvironmentBlueprint>

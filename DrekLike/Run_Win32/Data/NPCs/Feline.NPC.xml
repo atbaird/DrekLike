@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<NPCBlueprints>
+  <NPCBlueprint name='Scardy Cat' faction='feline' preferredTile='air' defaultName='Tabby' lineOfSight='20.f' maxHealth='20' damage='1~2' moveSpeed='1~3' race='feline' glyph='b' color='255,160,0'>
+    <!-- if defaultName not defined, name should be used as defaultName. -->
+    <!-- Names -->
+    <Names>
+      <Tabby/>
+      <Kitty/>
+      <Tom/>
+    </Names>
+
+    <Inventory>
+      <Item name='Potion of Slow Healing'/>
+    </Inventory>
+    
+    <!-- Titles -->
+    <Titles>
+      <!-- "the Goblin" -->
+      <Title name='the Scaredy Cat'>
+      </Title>
+    </Titles>
+
+    <!-- Behaviors -->
+    <Behaviors>
+      <!-- Patrol -->
+      <!--
+      <Patrol patrolPoints='2~5' chanceToRest='0.2' chanceToWalk='0.6' priority='3'>
+        <CanNot behavior='Wander'/>
+      </Patrol>
+      -->
+
+      <!-- Wander -->
+      <PickUpItem interestInItems='50.f' minInterestInItems='30.f' distanceOutToCare='9.f'/>
+      <Wander chanceToRest='0.4' chanceToWalk='0.4'/>
+        <!--<CanNot behavior='Patrol'/>-->
+
+      <!-- Flee -->
+      <Flee healthPercentLessThan='1.0' percentChanceToScream='0.5' multiplier='100' baseChanceToRun='0.5' priority='1'>
+      </Flee>
+    </Behaviors>
+  </NPCBlueprint>
+</NPCBlueprints>

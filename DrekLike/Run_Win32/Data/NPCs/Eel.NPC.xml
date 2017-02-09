@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<NPCBlueprints>
+  <NPCBlueprint name='Lava Eel' defaultName='Squiggly' preferredTile='lava' faction='eel' maxHealth='5' 
+                damage='3~6' moveSpeed='1' lineOfSight='5.f' race='eel' glyph='d' color='200,100,0' accuracy='0.5'>
+    <Names>
+      <Squiggly/>
+      <Snively/>
+      <Burny/>
+    </Names>
+    <MovementProperties>
+      <blockedByWalls/>
+      <BlockedByAir/>
+      <BlockedByWater/>
+    </MovementProperties>
+    <Titles>
+      <Title name='the Lava Eel'/>
+    </Titles>
+    <Behaviors>
+      <Wander chanceToRest='0.1' chanceToWalk='0.9' healthFromResting='2'/>
+      <Chase/>
+
+      <MeleeAttack>
+      </MeleeAttack>
+    </Behaviors>
+  </NPCBlueprint>
+</NPCBlueprints>

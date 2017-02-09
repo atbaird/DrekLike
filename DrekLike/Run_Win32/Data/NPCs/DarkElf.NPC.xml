@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<NPCBlueprints>
+  <NPCBlueprint name='Dark Elf Warrior' defaultName='Lithendeer' preferredTile='air' faction='dark_elf'
+                maxHealth='6~10' damage='4~6' moveSpeed='1' lineOfSight='5.f' race='dark_elf' glyph='d' color='150,0,150'
+                accuracy='0.6'>
+    <Names>
+      <Lithendeer/>
+      <Sooth/>
+      <Elf/>
+      <MrT/>
+    </Names>
+    <Titles>
+      <Title name='the Dark Elf Warrior'/>
+    </Titles>
+    <Behaviors>
+      <Wander chanceToRest='0.33' chanceToWalk='0.67'/>
+      <Chase/>
+      <PickUpItem/>
+
+      <MeleeAttack>
+      </MeleeAttack>
+
+    </Behaviors>
+
+    <MovementProperties>
+      <blockedByWalls/>
+      <BlockedByFire/>
+    </MovementProperties>
+
+  </NPCBlueprint>
+  <NPCBlueprint name='Dark Elf Wizard' defaultName='Lithendeer' preferredTile='air' faction='dark_elf'
+                maxHealth='4~8' damage='3~5' moveSpeed='1' lineOfSight='5.f' race='dark_elf' glyph='d' color='150,0,150'
+                accuracy='0.3'>
+    <Names>
+      <Lithendeer/>
+      <Sooth/>
+      <Elf/>
+    </Names>
+    <Titles>
+      <Title name='the Dark Elf Wizard'/>
+    </Titles>
+    <Behaviors>
+      <Wander chanceToRest='0.25' chanceToWalk='0.75' healFromResting='2'/>
+      <Chase/>
+      <PickUpItem/>
+
+      <MeleeAttack>
+      </MeleeAttack>
+
+    </Behaviors>
+
+    <MovementProperties>
+      <blockedByWalls/>
+      <BlockedByFire/>
+    </MovementProperties>
+  </NPCBlueprint>
+</NPCBlueprints>

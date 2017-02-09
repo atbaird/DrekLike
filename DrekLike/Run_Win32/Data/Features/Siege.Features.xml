@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<FeatureBlueprints>
+  <FeatureBlueprint featureType='siege' name='Ballistae' charWhenActive='x' charWhenInactive='x'
+                    blocksLineOfSightWhenInactive='f' blocksLineOfSightWhenActive='f' solidWhenActive='t' solidWhenInactive='t'
+                    colorWhenActive='0.863f,0.f,0.f' colorWhenInactive='0.863f,0.f,0.f' active='True'
+                    messageToDisplayWhenSetActive=' fired the ballistae.'
+                    messageToDisplayWhenSetInactive=' reloads the ballistae.'
+                    turnsUntilActive='4' damage='8~12' chanceToHit='0.3'>
+    <!-- When Active, the door is considered closed, when inactive, the door is considered open. -->
+
+  </FeatureBlueprint>
+</FeatureBlueprints>

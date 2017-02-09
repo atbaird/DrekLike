@@ -1,0 +1,123 @@
+﻿  CommonDefinitions.cpp
+  Feature.cpp
+  FeatureFactory.cpp
+  FeatureTemplate.cpp
+  FieldOfView.cpp
+  FieldOfViewBasic.cpp
+  FieldOfViewFloodFill.cpp
+  FieldOfViewPermissive.cpp
+  FieldOfViewRadiusAround.cpp
+  FieldOfViewRayCast.cpp
+  GameCommonFunctions.cpp
+  Agent.cpp
+  Faction.cpp
+  Behavior.cpp
+  Chase.cpp
+  Flee.cpp
+  MeleeAttack.cpp
+  Patrol.cpp
+  PickUpItem.cpp
+  UseSiegeWeapon.cpp
+GameEntity\AgentType\NPC\Behaviors\UseSiegeWeapon.cpp(9): warning C4100: 'node': unreferenced formal parameter
+GameEntity\AgentType\NPC\Behaviors\UseSiegeWeapon.cpp(13): warning C4100: 'other': unreferenced formal parameter
+GameEntity\AgentType\NPC\Behaviors\UseSiegeWeapon.cpp(58): warning C4100: 'node': unreferenced formal parameter
+GameEntity\AgentType\NPC\Behaviors\UseSiegeWeapon.cpp(62): warning C4100: 'data': unreferenced formal parameter
+  Compiling...
+  Wander.cpp
+  NPC.cpp
+  NPCTemplate.cpp
+  Player.cpp
+  AgentTitle.cpp
+  CombatSystem.cpp
+  GameEntity.cpp
+  EnvironmentGenerationProcess.cpp
+  Generator.cpp
+  CastleGenerator.cpp
+  CavernGenerator.cpp
+  Cavern.cpp
+  PerlinWorm.cpp
+  CellularAutomationGenerator.cpp
+  DungeonMapGenerator.cpp
+  DungeonMapGen_Room.cpp
+  Tunnel.cpp
+  FromDataGenerator.cpp
+  MapGenerator.cpp
+  NPCFactory.cpp
+  Compiling...
+  Inventory.cpp
+  Item.cpp
+  ItemFactory.cpp
+  ItemTemplate.cpp
+  StatusEffect.cpp
+  Use.cpp
+  Main_Win32.cpp
+  Map.cpp
+  Tile.cpp
+  TileData.cpp
+  TileDefinition.cpp
+  TileType.cpp
+  AStarAlgo.cpp
+  TempGameState.cpp
+  TempGameStates.cpp
+  TheApp.cpp
+  TheGame.cpp
+  Generating code
+  All 6940 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+Engine.lib(Renderer.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(Renderer.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(StringUtils.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(StringUtils.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(IntVector2.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(IntVector2.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(Rgba.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(Rgba.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(SpriteSheet.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(SpriteSheet.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(xmlParser.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(xmlParser.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(Vertex_PCT.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(Vertex_PCT.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(Vector2.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(Vector2.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(EngineXMLParser.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(EngineXMLParser.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(Vector3.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(Vector3.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(Input.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(Input.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(Entity.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(Entity.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(FileUtils.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(FileUtils.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(ErrorWarningAssert.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(ErrorWarningAssert.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(Font.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(Font.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(Time.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(Time.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(Console.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(Console.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(DebugRenderring.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(DebugRenderring.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(Texture.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(Texture.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(FrameBuffer.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(FrameBuffer.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(ShaderProgram.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(ShaderProgram.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(Material.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(Material.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(Mesh.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(Mesh.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(Vertex_PCTT.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(Vertex_PCTT.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(EulerAngles.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(EulerAngles.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(Camera3D.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(Camera3D.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(Matrix44.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(Matrix44.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(OpenGLExtensions.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(OpenGLExtensions.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(BitmapFont.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(BitmapFont.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(AABB2.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(AABB2.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(XboxController.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(XboxController.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(Keyboard.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(Keyboard.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(Mouse.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(Mouse.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(ConsoleCommands.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(ConsoleCommands.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(RegisterCommandHelper.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(RegisterCommandHelper.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(Command.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(Command.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(DebugPoint.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(DebugPoint.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(DebugAABB3.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(DebugAABB3.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(DebugArrow.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(DebugArrow.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(DebugLine.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(DebugLine.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(DebugSphere.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(DebugSphere.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(stb_image.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(stb_image.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(Shader.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(Shader.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(Skeleton.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(Skeleton.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(Vector4.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(Vector4.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(UnsignedIntVector4.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(UnsignedIntVector4.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(Vertex_PCTT_Skeleton.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(Vertex_PCTT_Skeleton.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(skin_weight_t.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(skin_weight_t.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(AABB3.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(AABB3.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(FileBinaryReader.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(FileBinaryReader.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(CommonUtils.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(CommonUtils.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(IBinaryReader.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(IBinaryReader.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(FileBinaryWriter.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(FileBinaryWriter.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+Engine.lib(IBinaryWriter.obj) : warning LNK4099: PDB 'Engine.pdb' was not found with 'Engine.lib(IBinaryWriter.obj)' or at 'D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\Engine.pdb'; linking object as if no debug info
+  Game.vcxproj -> D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\DrekLike.exe
+  D:\Github Repos\DrekLike\DrekLike\Temporary\DrekLike_Win32_Release\DrekLike.exe -> D:\Github Repos\DrekLike\DrekLike\Run_Win32\DrekLike.exe
+  1 File(s) copied

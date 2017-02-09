@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<ItemBlueprints>
+  <!-- The Weapons file is made with the intention of containing PrimaryHand and SecondaryHand items-->
+  <!-- Primary Hand only gets applied to offensive-->
+  <!-- Secondary Hand has special property of being both for offensive and defensive, unless its armor-->
+  <ItemBlueprint name='Bronze Sword' glyph='h' color='0.803,0.498,0.196' itemType='weapon' equipSlot='primaryHand' damage='8~10'>
+  </ItemBlueprint>
+
+  <ItemBlueprint name='Bronze Mace' glyph='m' color='0.803,0.498,0.196' itemType='weapon' equipSlot='primaryHand' damage='8~10'>
+    
+  </ItemBlueprint>
+  <ItemBlueprint name='Wooden Club' glyph='c' color='0.502,0.0,0.0' itemType='weapon' equipSlot='primaryHand' damage='2~4'>
+
+  </ItemBlueprint>
+  <ItemBlueprint name='Whip' glyph='w' color='0.502,0.0,0.0' itemType='weapon' equipSlot='secondaryHand' damage='2~4'>
+
+  </ItemBlueprint>
+  <ItemBlueprint name='Bronze Dagger' glyph='d' color='0.803,0.498,0.196' itemType='weapon' equipSlot='secondaryHand' damage='2~4'>
+  </ItemBlueprint>
+  
+  <ItemBlueprint name='Bronze Shield' glyph='s' color='0.803,0.498,0.196' itemType='armor' equipSlot='secondaryHand' damage='2~4'>
+
+  </ItemBlueprint>
+</ItemBlueprints>

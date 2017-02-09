@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<NPCBlueprints>
+
+  <!-- Commenting out All other blueprints for Final
+  <NPCBlueprint name='GoblinGrunt' faction='goblin' preferredTile='air' defaultName='Grunt' maxHealth='9~11' damage='3~4' moveSpeed='1~3' lineOfSight='5.f' race='goblin' glyph='g' color='0,255,0'>
+
+    <Names>
+      <Grunt/>
+      <Greg/>
+      <Grugnog/>
+      <Merp/>
+    </Names>
+    
+    <Titles>
+      <Title name='the Goblin Grunt'>
+      </Title>
+
+      <Title name='the Fearless Goblin Grunt'>
+        <CanNot behavior='Flee'/>
+      </Title>
+    </Titles>
+
+    <Inventory>
+      <Item name='Potion of Instant Health'/>
+    </Inventory>
+    
+    <Behaviors>
+      <PickUpItem interestInItems='50.f' minInterestInItems='30.f' distanceOutToCare='9.f'/>
+      
+      <Wander chanceToRest='0.5' chanceToWalk='0.3'>
+      </Wander>
+      <Chase maximumDuration='30' maximumDistanceAwayToStart='15'>
+        
+      </Chase>
+
+
+      <MeleeAttack>
+
+      </MeleeAttack>
+      <Flee healthPercentLessThan='0.2' priority='1'>
+      </Flee>
+    </Behaviors>
+    
+  </NPCBlueprint>
+  
+  
+  <NPCBlueprint name='GoblinWitchDoctor' defaultName='Gruntilda' preferredTile='air' faction='goblin' maxHealth='11~16' damage='3~4' moveSpeed='1~3' lineOfSight='5.f' race='goblin' glyph='a' color='0~1,180~190,0~30'>
+
+    <Names>
+      <Gruntilda/>
+      <Grogish/>
+      <Groomeg/>
+      <Clerp/>
+    </Names>
+
+    <Titles>
+      <Title name='the Goblin Witch Doctor'>
+      </Title>
+
+      <Title name='the Fearless Witch Doctor'>
+        <CanNot behavior='Flee'/>
+      </Title>
+    </Titles>
+    <Inventory>
+      <Item name='Potion of Slow Healing'/>
+      <Item name='Potion of Instant Health'/>
+    </Inventory>
+
+    <Behaviors>
+      <PickUpItem interestInItems='50.f' minInterestInItems='30.f' distanceOutToCare='9.f'/>
+
+      <Wander chanceToRest='0.5' chanceToWalk='0.3'/>
+
+      <Chase maximumDuration='30' maximumDistanceAwayToStart='15'/>
+
+
+      <MeleeAttack>
+
+      </MeleeAttack>
+
+      <Flee healthPercentLessThan='0.2' priority='1'/>
+    </Behaviors>
+  </NPCBlueprint>
+
+  <NPCBlueprint name='GoblinKing' defaultName='Gobleton' preferredTile='air' faction='goblin' maxHealth='20~30' damage='3~4' moveSpeed='1~3' lineOfSight='5.f' race='goblin' glyph='G' color='0~1,180~190,0~30'>
+    <Names>
+      <Gobleton/>
+    </Names>
+    <Titles>
+      <Title name='the Goblin King'/>
+    </Titles>
+    <Behaviors>
+      <Wander chanceToRest='0.5' chanceToWalk='0.3'/>
+      <Chase maximumDuration='30' maximumDistanceAwayToStart='15' />
+      <Flee healthPercentLessThan='0.4' />
+      <PickUpItem interestInItems='50.f' minInterestInItems='30.f' distanceOutToCare='9.f'/>
+
+      <MeleeAttack>
+
+      </MeleeAttack>
+      
+    </Behaviors>
+  </NPCBlueprint>
+  -->
+</NPCBlueprints>
